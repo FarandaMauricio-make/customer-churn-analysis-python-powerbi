@@ -110,8 +110,9 @@ Insights sobre correlação ou sugestões de novas métricas DAX?
 4.  Abra um Pull Request.
 
 ---
+
 ## 🎥 Demonstração do Dashboard
 
-<video src="imagens/Analise-de-Churn-PowerBI.mp4" controls width="800"></video>
+[▶ Clique aqui para assistir ao vídeo](imagens/Analise-de-Churn-PowerBI.mp4)
 
 **Dados transformados em Decisões.** 📉
