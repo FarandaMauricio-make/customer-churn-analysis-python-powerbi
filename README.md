@@ -113,6 +113,8 @@ Insights sobre correlação ou sugestões de novas métricas DAX?
 
 ## 🎥 Demonstração do Dashboard
 
-[▶ Clique aqui para assistir ao vídeo](imagens/Analise-de-Churn-PowerBI.mp4)
+[▶ Assista ao vídeo demonstrativo aqui](https://www.youtube.com/watch?v=Xhml2qDakIs)
+
+---
 
 **Dados transformados em Decisões.** 📉
