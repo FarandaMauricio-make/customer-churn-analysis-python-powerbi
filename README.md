@@ -13,6 +13,10 @@ O Churn (taxa de cancelamento) é uma das métricas mais críticas para empresas
 
 A arquitetura do projeto segue um fluxo de ETL (Extract, Transform, Load) onde o Python atua como motor de processamento, entregando dados limpos e enriquecidos para a camada de visualização no Power BI.
 
+<p align="center">
+  <img src="./imagens/Análise_de_Churn.png" alt="Demonstração do Dashboard" width="100%">
+</p>
+
 ---
 
 ## ⚙️ Arquitetura da Solução
