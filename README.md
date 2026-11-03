@@ -78,8 +78,8 @@ O arquivo `Analise_de_Churn.pbix` apresenta uma visão executiva com os seguinte
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/telco-churn-analytics.git](https://github.com/SEU-USUARIO/telco-churn-analytics.git)
-    cd telco-churn-analytics
+    git clone https://github.com/FarandaMauricio-make/customer-churn-analysis-python-powerbi.git
+    cd customer-churn-analysis-python-powerbi
     ```
 
 2.  **Prepare o Ambiente Python:**
@@ -88,19 +88,26 @@ O arquivo `Analise_de_Churn.pbix` apresenta uma visão executiva com os seguinte
     ```
 
 3.  **Execute o ETL:**
-    Certifique-se de que o arquivo bruto `WA_Fn-UseC_-Telco-Customer-Churn.csv` está na pasta.
+    O script lê o CSV bruto na mesma pasta em que ele está. Copie o arquivo de `data/raw/` para `python/` e execute:
     ```bash
-    python CustomerChurn.py
+    cp data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv python/
+    python python/CustomerChurn.py
     ```
-    *Isso gerará o arquivo `telco_limpo_para_powerbi.csv`.*
+    *Isso gerará o arquivo `telco_limpo_para_powerbi.csv` em `python/`. Uma versão já processada está em `data/processed/`.*
 
 4.  **Abra o Dashboard:**
-    * Abra o arquivo `Analise_de_Churn.pbix` no Power BI Desktop.
+    * Abra o arquivo `powerbi/Analise_de_Churn.pbix` no Power BI Desktop.
     * Caso necessário, atualize a fonte de dados apontando para o novo CSV gerado.
 
 ---
 
 ## 📂 Estrutura de Arquivos
+
+* `/data/raw`: dataset original (`WA_Fn-UseC_-Telco-Customer-Churn.csv`).
+* `/data/processed`: base tratada para o Power BI (`telco_limpo_para_powerbi.csv`).
+* `/python`: script `CustomerChurn.py` de limpeza e engenharia de atributos.
+* `/powerbi`: arquivo `Analise_de_Churn.pbix`.
+* `/imagens`: print do dashboard.
 
 ---
 
